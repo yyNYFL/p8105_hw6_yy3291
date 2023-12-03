@@ -253,7 +253,7 @@ Make this comparison in terms of the cross-validated prediction error; use cross
 Note that although we expect your model to be reasonable, model building itself is not a main idea of the course and we don’t necessarily expect your model to be “optimal”.
 
 
-```{r}
+```{r include=FALSE}
 # first I will need to load the required dataset
 
 birthweight_df = read_csv("./data/birthweight.csv") %>% 
@@ -362,4 +362,4 @@ cv_df  %>%
   )
 ```
 
-# I do not think my plot is working 
+I do not think my plot is working but it seems that model 1 and model 2 which is my hypothesized model and the model with less predictors are better than the model that has the interaction terms. 
